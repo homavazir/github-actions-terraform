@@ -18,7 +18,7 @@ terraform {
 
 }
 
-# resource "aws_s3_bucket" "example" {
-#   bucket        = "oidc-terraform-test-bucket-123456"
-#   force_destroy = true
-# }
+resource "aws_s3_bucket" "example" {
+  bucket        = "oidc-terraform-test-bucket-123456"
+  force_destroy = true
+}
