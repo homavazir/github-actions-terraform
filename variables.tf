@@ -4,6 +4,7 @@ variable "cidr" {
 }
 
 variable "availability_zone" {
+  type        = string
   description = "availability_zone"
   default     = "ap-southeast-2a"
 }
