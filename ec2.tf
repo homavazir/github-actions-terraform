@@ -1,4 +1,4 @@
-Create Sec Group
+#Create Sec Group
 resource "aws_security_group" "allow_https" {
 
   name        = "allow_https"
